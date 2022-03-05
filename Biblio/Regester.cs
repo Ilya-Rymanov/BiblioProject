@@ -69,7 +69,13 @@ namespace Biblio
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
             this.Hide();

@@ -30,5 +30,15 @@ namespace Biblio
             string name = dataTable2.Rows[0][0].ToString();
             label1.Text = "Добро пожаловать, " + name + " " + surname;
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

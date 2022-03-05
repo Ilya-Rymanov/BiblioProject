@@ -50,5 +50,15 @@ namespace Biblio
             this.Hide();
             reg.Show();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
