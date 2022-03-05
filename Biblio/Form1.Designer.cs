@@ -54,6 +54,7 @@
             this.logBox.Name = "logBox";
             this.logBox.Size = new System.Drawing.Size(134, 34);
             this.logBox.TabIndex = 1;
+            this.logBox.Text = "A";
             // 
             // passBox
             // 
