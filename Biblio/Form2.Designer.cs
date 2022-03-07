@@ -135,6 +135,7 @@
             this.label4.Size = new System.Drawing.Size(252, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "Список читателй в зале";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
