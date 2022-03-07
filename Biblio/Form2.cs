@@ -43,7 +43,67 @@ namespace Biblio
 
         private void label4_Click(object sender, EventArgs e)
         {
+            Readers_frm form3 = new Readers_frm(log);
+            this.Hide();
+            form3.Show();
+        }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Proizved_frm form1 = new Proizved_frm(log);
+            this.Hide();
+            form1.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Book_frm form2 = new Book_frm(log);
+            this.Hide();
+            form2.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Works_frm form4 = new Works_frm(log);
+            this.Hide();
+            form4.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Proizved_frm form1 = new Proizved_frm(log);
+            this.Hide();
+            form1.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Book_frm form2 = new Book_frm(log);
+            this.Hide();
+            form2.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Readers_frm form3 = new Readers_frm(log);
+            this.Hide();
+            form3.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Works_frm form4 = new Works_frm(log);
+            this.Hide();
+            form4.Show();
+        }
+
+        
+
+        private void listBox1_Click(object sender, EventArgs e)
+        {
+            Proizved_frm form1 = new Proizved_frm(log);
+            this.Hide();
+            form1.Show();
         }
     }
 }

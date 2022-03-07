@@ -158,11 +158,17 @@
     <Compile Include="Works_frm.Designer.cs">
       <DependentUpon>Works_frm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Book_frm.resx">
+      <DependentUpon>Book_frm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proizved_frm.resx">
+      <DependentUpon>Proizved_frm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -173,8 +179,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Readers_frm.resx">
+      <DependentUpon>Readers_frm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Regester.resx">
       <DependentUpon>Regester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Works_frm.resx">
+      <DependentUpon>Works_frm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="GroveStreat_BiblioDataSet.xsc">
       <DependentUpon>GroveStreat_BiblioDataSet.xsd</DependentUpon>

@@ -54,7 +54,7 @@ namespace Biblio
                         }
                         else
                         {
-                            MessageBox.Show("Ошиб очка");
+                            MessageBox.Show("Ошибка");
                         }
                     }
                 }

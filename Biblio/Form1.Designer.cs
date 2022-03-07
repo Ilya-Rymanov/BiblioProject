@@ -43,11 +43,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.label1.Location = new System.Drawing.Point(24, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 43);
+            this.label1.Size = new System.Drawing.Size(200, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Авторизация";
             // 
@@ -55,7 +55,7 @@
             // 
             this.logBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(28)))), ((int)(((byte)(62)))));
             this.logBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.logBox.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.logBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.logBox.Location = new System.Drawing.Point(53, 166);
             this.logBox.Name = "logBox";
             this.logBox.Size = new System.Drawing.Size(257, 28);
@@ -65,7 +65,7 @@
             // 
             this.passBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(28)))), ((int)(((byte)(62)))));
             this.passBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.passBox.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.passBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.passBox.Location = new System.Drawing.Point(54, 262);
             this.passBox.Name = "passBox";
             this.passBox.Size = new System.Drawing.Size(257, 28);
@@ -76,7 +76,7 @@
             this.button1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(22)))), ((int)(((byte)(49)))));
             this.button1.Location = new System.Drawing.Point(25, 328);
             this.button1.Name = "button1";
@@ -91,7 +91,7 @@
             this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(22)))), ((int)(((byte)(49)))));
             this.button2.Location = new System.Drawing.Point(188, 328);
             this.button2.Name = "button2";
@@ -104,22 +104,22 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.label2.Location = new System.Drawing.Point(61, 136);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 21);
+            this.label2.Size = new System.Drawing.Size(146, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Номер телефона:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.label3.Location = new System.Drawing.Point(61, 229);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 21);
+            this.label3.Size = new System.Drawing.Size(139, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "Введите пароль:";
             // 

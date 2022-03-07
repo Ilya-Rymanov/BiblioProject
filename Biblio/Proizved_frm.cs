@@ -12,9 +12,58 @@ namespace Biblio
 {
     public partial class Proizved_frm : Form
     {
-        public Proizved_frm()
+        private string log;
+        public Proizved_frm(string log)
         {
+            this.log = log;
             InitializeComponent();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                AuthorsBooksViewBindingSource.Filter = "Book='" + comboBox1.Text + "'";
+                
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка!");
+            }
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                AuthorsBooksViewBindingSource.Filter = "Surname='" + comboBox2.Text + "'";
+
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка!");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                AuthorsBooksViewBindingSource.Filter = "";
+
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка!");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(log);
+            this.Hide();
+            form2.Show();
+
         }
     }
 }

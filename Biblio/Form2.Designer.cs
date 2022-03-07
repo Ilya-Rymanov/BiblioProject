@@ -63,6 +63,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = " ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -76,6 +77,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = " ";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -89,6 +91,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = " ";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -102,6 +105,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = " ";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label2
             // 
@@ -113,6 +117,7 @@
             this.label2.Size = new System.Drawing.Size(233, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "Список произведений";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -124,6 +129,7 @@
             this.label3.Size = new System.Drawing.Size(177, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Выданные книги";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -132,9 +138,9 @@
             this.label4.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.label4.Location = new System.Drawing.Point(112, 274);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(252, 25);
+            this.label4.Size = new System.Drawing.Size(264, 25);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Список читателй в зале";
+            this.label4.Text = "Список читателей в зале";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
@@ -147,6 +153,7 @@
             this.label5.Size = new System.Drawing.Size(172, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "Работники зала";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
