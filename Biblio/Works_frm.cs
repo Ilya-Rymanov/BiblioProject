@@ -19,12 +19,6 @@ namespace Biblio
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2(log);
-            this.Hide();
-            form2.Show();
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -60,6 +54,18 @@ namespace Biblio
             {
                 MessageBox.Show("Ошибка!");
             }
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(log);
+            this.Hide();
+            form2.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

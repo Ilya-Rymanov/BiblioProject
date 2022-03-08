@@ -19,13 +19,6 @@ namespace Biblio
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2(log);
-            this.Hide();
-            form2.Show();
-        }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -61,6 +54,28 @@ namespace Biblio
             {
                 MessageBox.Show("Ошибка!");
             }
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(log);
+            this.Hide();
+            form2.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
